@@ -49,7 +49,12 @@ def main():
     width, height = 540, 360
     draw_rectangle(x, y, width, height)
     # 画大星星
-    pice = 22
+    #pice = 22
+    #pice=540/2/15
+    pice=18
+    
+    
+    
     center_x, center_y = x + 5 * pice, y + height - pice * 5
     turtle.goto(center_x, center_y)
     turtle.left(90)
